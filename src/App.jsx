@@ -5,7 +5,7 @@ import fotoQuantum from "./assets/picture/quantumcomputing.jpg";
 import fotoVR from "./assets/picture/vr.jpg";
 import "./App.css";
 
-const reloadButton = () => (
+const ReloadButton = () => (
   <button
     onClick={() => window.location.reload()}
     className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 mt-2 rounded-lg focus:outline-none"
@@ -142,7 +142,7 @@ function App() {
               The potential of AI is vast, and it continues to evolve rapidly,
               transforming how we interact with technology.
             </p>
-            <reloadButton/>
+            <ReloadButton/>
           </div>
         </section>
         <section id="blockchain" className="flex-grow p-6">
@@ -189,7 +189,7 @@ function App() {
               Blockchain's decentralized and secure nature makes it a
               transformative technology in various fields.
             </p>
-            <reloadButton/>
+            <ReloadButton/>
           </div>
         </section>
         <section id="quantum" className="flex-grow p-6">
@@ -234,7 +234,7 @@ function App() {
               The development of quantum computing is still in its early stages,
               but its potential impact on technology and science is immense.
             </p>
-            <reloadButton/>
+            <ReloadButton/>
           </div>
         </section>
         <section id="vr" className="flex-grow p-6">
@@ -277,7 +277,7 @@ function App() {
               As VR technology advances, it continues to offer innovative
               solutions and experiences that were previously unimaginable.
             </p>
-            <reloadButton/>
+            <ReloadButton/>
           </div>
         </section>
         <footer className="bg-gray-800 text-white py-8">
